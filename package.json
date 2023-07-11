@@ -1,0 +1,34 @@
+{
+  "name": "dtree",
+  "version": "1.0.0",
+  "description": "a cli tool for generating directory/file trees, useful for giving openai a description of how your files are laid out",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "bin": {
+    "dtree": "./index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/gnubyte/directory-tree-js.git"
+  },
+  "keywords": [
+    "javascript",
+    "tree",
+    "cli",
+    "directory",
+    "filestructure"
+  ],
+  "author": "phastings@openmobo.com",
+  "license": "UNLICENSED",
+  "bugs": {
+    "url": "https://github.com/gnubyte/directory-tree-js/issues"
+  },
+  "homepage": "https://github.com/gnubyte/directory-tree-js#readme",
+  "dependencies": {
+    "chai": "^4.3.7",
+    "fs": "^0.0.1-security",
+    "path": "^0.12.7"
+  }
+}
