@@ -3,8 +3,12 @@ A Node.js global install package that generates a directory tree structure in ma
 
 ## Installation
 Clone or download this repository.
+
+
 Navigate to the project directory in the command line.
 Run `npm install` to install the dependencies.
+
+run `npm link` to install the CLI locally
 
 ## Usage
 To generate a directory tree and display it in the console:
